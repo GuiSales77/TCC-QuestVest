@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --cinza-claro: #dcdcdd;
+    --preto:black;
+    --branco: white;
+    --azulescuro: #5e99ffdc;
+    --azulclaro: #b6d1f5;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--azulclaro);
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
