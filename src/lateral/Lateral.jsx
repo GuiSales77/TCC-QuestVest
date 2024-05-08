@@ -4,8 +4,10 @@ import estilos from './Lateral.module.css'
 export function Lateral(){
     return(
 
-        <img src={LogoEscrita} alt="LogoEscrita" className={estilos.logo} />
-
+       
+        <div className={estilos.Tela}>
+            <img src={LogoEscrita} alt="LogoEscrita" className={estilos.logo} />
+        </div>
        
     )
 }
