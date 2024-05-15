@@ -1,12 +1,15 @@
 import estilos from './Inicial.module.css'
-import {Cabecalho} from '../cabecalho/Cabecalho'
-import { Lateral } from '../lateral/Lateral'
+import {Cabecalho} from '../componetes/Cabecalho'
+import {Lateral} from '../componetes/Lateral'
+import {Outlet} from 'react-router-dom'
 
 export function Inicial() {
   return (
     <div className={estilos.gridConteiner}>
       <Cabecalho />
       <Lateral/>
+
+      <Outlet/>
     </div>
   )
 }
