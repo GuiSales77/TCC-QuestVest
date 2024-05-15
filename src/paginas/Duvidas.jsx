@@ -1,9 +1,9 @@
 import {estilos} from './Duvidas.module.css'
 
-function Dvuidas() {
+function Duvidas() {
     return(
         <div className={estilos.conteiner} >
-
+  
         </div>
     )
 }
